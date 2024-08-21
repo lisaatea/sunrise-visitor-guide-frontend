@@ -1,4 +1,4 @@
-const baseUrl = "/sunrise-visitor-guide-frontend";
+const baseUrl = "https://lisaatea.github.io/sunrise-visitor-guide-frontend";
 
 const trailData = [
   {
