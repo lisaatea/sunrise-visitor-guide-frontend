@@ -15,9 +15,9 @@ The project was developed from the ground up, encompassing all stages of the dev
 
 ## Key features
 
-- Real-time Weather Information: Integrates with OpenWeatherMap API to provide current weather, as well as sunset/sunrise times for the park area.
+- Real-time Weather Information: Integrates with OpenWeatherMap API to provide current weather, as well as sunrise/sunset times for the park area.
 - Trail Guide: Displays concise yet detailed information about area hiking trails, including distance, directions, and features.
-- Interactive Mapping: Utilizes React Leaflet to render interactive maps, allowing users to visual trail routes and points of interest.
+- Interactive Mapping: Utilizes React Leaflet to render interactive maps, allowing users to visualize trail routes and points of interest.
 - Responsive design: Ensures a seamless experience for desktop, tablet, and mobile devices.
 
 ## Technologies used
