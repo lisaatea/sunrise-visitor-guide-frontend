@@ -1,8 +1,42 @@
-# React + Vite
+# Sunrise Visitor's Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project overview
 
-Currently, two official plugins are available:
+This front-end application was completed as a capstone project for the Software Engineering program at Triple Ten. It provides an interactive visitor's guide for the Sunrise region of Mount Rainier National Park.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project was developed from the ground up, encompassing all stages of the development lifecycle, including:
+
+- Conceptualization and project planning
+- UI/UX design
+- Frontend architecture design and implementation
+- Integration of external API
+- Testing and debugging
+- Deployment
+
+## Key features
+
+- Real-time Weather Information: Integrates with OpenWeatherMap API to provide current weather, as well as sunset/sunrise times for the park area.
+- Trail Guide: Displays concise yet detailed information about area hiking trails, including distance, directions, and features.
+- Interactive Mapping: Utilizes React Leaflet to render interactive maps, allowing users to visual trail routes and points of interest.
+- Responsive design: Ensures a seamless experience for desktop, tablet, and mobile devices.
+
+## Technologies used
+
+- React
+- React Router
+- React Leaflet
+- Javascript
+- CSS
+- External API
+
+![landing page image](./src/assets/README-assets/landingpage.png)
+![info page image](./src/assets/README-assets/infopage.png)
+![popup map image](./src/assets/README-assets/map-popup.png)
+
+## Demo video
+
+![project demo video](./src/assets/README-assets/svg-demo-video.mp4)
+
+## Links
+
+[GitHub pages]()
