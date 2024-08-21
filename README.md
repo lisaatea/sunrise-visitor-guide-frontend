@@ -33,10 +33,6 @@ The project was developed from the ground up, encompassing all stages of the dev
 ![info page image](./src/assets/README-assets/infopage.png)
 ![popup map image](./src/assets/README-assets/map-popup.png)
 
-## Demo video
-
-![project demo video](./src/assets/README-assets/svg-demo-video.mp4)
-
 ## Links
 
 [GitHub pages](https://lisaatea.github.io/sunrise-visitor-guide-frontend/)
