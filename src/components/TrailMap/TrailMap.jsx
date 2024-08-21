@@ -6,10 +6,24 @@ import {
   Marker,
   Popup,
 } from "react-leaflet";
+import L from "leaflet";
+import icon from "leaflet/dist/images/marker-icon.png";
+import iconShadow from "leaflet/dist/images/marker-shadow.png";
 import { parseKML } from "../../utils/kmlParser";
 import Preloader from "../Preloader/Preloader";
 import "leaflet/dist/leaflet.css";
 import "./TrailMap.css";
+
+let defaultIcon = L.icon({
+  iconUrl: icon,
+  shadowUrl: iconShadow,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
+});
+
+L.Marker.prototype.options.icon = defaultIcon;
 
 function TrailMap({ trail }) {
   const [routeData, setRouteData] = useState(null);
@@ -18,12 +32,7 @@ function TrailMap({ trail }) {
     fetch(trail.kmlUrl)
       .then((res) => res.text())
       .then((kmlString) => {
-        console.log(
-          "KML string received:",
-          kmlString.substring(0, 100) + "..."
-        );
         const coordinates = parseKML(kmlString);
-        console.log("parsed coordinates:", coordinates.length, "points");
         setRouteData(coordinates);
       })
       .catch(console.error);
