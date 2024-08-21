@@ -1,3 +1,5 @@
+const baseUrl = "/sunrise-visitor-guide-frontend";
+
 const trailData = [
   {
     id: 1,
@@ -8,7 +10,7 @@ const trailData = [
     features:
       "Views of Mount Rainier, featuring the Winthrop Glacier. Alpine tundra vegetation. Possibility of mountain goat sightings.",
     imageUrl: new URL("../assets/burroughs.jpg", import.meta.url).href,
-    kmlUrl: "../../burroughs.kml",
+    kmlUrl: `${baseUrl}/burroughs.kml`,
   },
   {
     id: 2,
@@ -19,7 +21,7 @@ const trailData = [
     features:
       "Views of Mount Rainier, Cascade mountains, and Grand Park. Possibility of mountain goat sightings. Exploring a former fire lookout.",
     imageUrl: new URL("../assets/fremont.jpg", import.meta.url).href,
-    kmlUrl: "../../fremont.kml",
+    kmlUrl: `${baseUrl}/fremont.kml`,
   },
   {
     id: 3,
@@ -30,7 +32,7 @@ const trailData = [
     features:
       "Wildflowers. Views of Mount Rainier. Possibility of mountain goat, marmot, and black bear sightings. Exploring part of the famed Wonderland trail.",
     imageUrl: new URL("../assets/skyscraper.jpg", import.meta.url).href,
-    kmlUrl: "../../skyscraper.kml",
+    kmlUrl: `${baseUrl}/skyscraper.kml`,
   },
   {
     id: 4,
@@ -41,7 +43,7 @@ const trailData = [
     features:
       "Meadows with streams and varied and abundant wildflowers. Possibility of marmot, black bear sightings.",
     imageUrl: new URL("../assets/berkeley.jpg", import.meta.url).href,
-    kmlUrl: "../../berkeley.kml",
+    kmlUrl: `${baseUrl}/berkeley.kml`,
   },
   {
     id: 5,
@@ -52,7 +54,7 @@ const trailData = [
     features:
       "Views of Mount Rainier, the Cowlitz Chimneys, and the volcanic peaks of Mount St. Helens, Mount Adams, Glacier Peak and Mount Baker.",
     imageUrl: new URL("../assets/dege.jpg", import.meta.url).href,
-    kmlUrl: "../../dege.kml",
+    kmlUrl: `${baseUrl}dege.kml`,
   },
   {
     id: 6,
@@ -63,7 +65,7 @@ const trailData = [
     features:
       "Wildflowers, views of Mount Rainier and the White River valley, open meadows, access to a backcountry camp (permit required).",
     imageUrl: new URL("../assets/glacierbasin.jpg", import.meta.url).href,
-    kmlUrl: "../../glacierbasin.kml",
+    kmlUrl: `${baseUrl}/glacierbasin.kml`,
   },
 ];
 

@@ -18,7 +18,12 @@ function TrailMap({ trail }) {
     fetch(trail.kmlUrl)
       .then((res) => res.text())
       .then((kmlString) => {
+        console.log(
+          "KML string received:",
+          kmlString.substring(0, 100) + "..."
+        );
         const coordinates = parseKML(kmlString);
+        console.log("parsed coordinates:", coordinates.length, "points");
         setRouteData(coordinates);
       })
       .catch(console.error);
