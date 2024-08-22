@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-text {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+.trail-card-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .trail-card-section {
+    grid-template-columns: 1fr;
+  }
+}

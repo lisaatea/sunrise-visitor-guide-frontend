@@ -1,0 +1,45 @@
+.map-popup__overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(47, 53, 42, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.map-popup__content {
+  position: relative;
+  background-color: #505b66;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.map-popup__close-btn {
+  background-image: url(../../assets/close-btn.svg);
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  padding: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.map-popup__title {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.map-popup__map {
+  flex-grow: 1;
+  position: relative;
+}

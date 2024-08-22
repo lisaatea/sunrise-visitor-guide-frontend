@@ -1,0 +1,13 @@
+.page {
+  background-color: #2f352a;
+  width: 100%;
+  font-family: "Poppins-Regular", Arial, sans-serif;
+  color: #e6e5df;
+}
+
+.page__content {
+  background-color: #2f352a;
+  margin: 0 auto;
+  padding: 0 80px;
+  max-width: 1300px;
+}
