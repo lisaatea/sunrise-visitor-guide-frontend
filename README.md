@@ -4,7 +4,7 @@
 
 This front-end application was completed as a capstone project for the Software Engineering program at Triple Ten. It provides an interactive visitor's guide for the Sunrise region of Mount Rainier National Park.
 
-The project was developed from the ground up, encompassing all stages of the development lifecycle, including:
+The project was developed independently from the ground up, encompassing all stages of the development lifecycle, including:
 
 - Conceptualization and project planning
 - UI/UX design
@@ -28,6 +28,8 @@ The project was developed from the ground up, encompassing all stages of the dev
 - Javascript
 - CSS
 - External API
+
+## Gallery
 
 ![landing page image](./src/assets/README-assets/landingpage.png)
 ![info page image](./src/assets/README-assets/infopage.png)
